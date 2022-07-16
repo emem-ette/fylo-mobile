@@ -1,0 +1,467 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  padding: 100px 0;
+  background-color: hsl(218, 28%, 13%);
+}
+.navbar {
+  display: flex;
+  position: relative;
+  bottom: 50px;
+}
+.logo img {
+  width: 50%;
+  padding-left: 20px;
+}
+.navbar ul {
+  padding: 0;
+  margin: 0;
+  display: flex;
+}
+.navbar ul li {
+  list-style-type: none;
+  padding-right: 8px;
+  padding-left: 5px;
+}
+.navbar ul li a {
+  text-decoration: none;
+  color: white;
+  text-transform: capitalize;
+  font-size: 14px;
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+}
+
+.navbar ul li a:hover {
+  cursor: pointer;
+  border-bottom: 3px white dashed;
+  padding-top: 10px;
+}
+.all-illustration {
+  margin: 0 auto;
+}
+.illustration-intro {
+  padding: 40px 0;
+}
+.illustration-intro img {
+  position: relative;
+  bottom: 30px;
+  width: 80%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.illustration-h4 {
+  display: flex;
+}
+.illustration-intro h4 {
+  text-align: center;
+  color: white;
+  font-size: 18px;
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  padding: 20px 15px;
+  line-height: 1.7;
+  max-width: 350px;
+  margin: auto;
+  text-align: center;
+}
+.illustration-p {
+  display: flex;
+}
+.illustration-intro p {
+  color: white;
+  font-size: 14px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  max-width: 350px;
+  margin: auto;
+  text-align: center;
+  padding: 20px 20px;
+  line-height: 1.7;
+}
+.btn {
+  padding-top: 10px;
+  display: flex;
+  justify-content: center;
+}
+.btn button {
+  background-color: hsl(176, 68%, 64%);
+  border: 3px solid hsl(176, 68%, 64%);
+  border-radius: 20px;
+  padding: 6px 35px 6px 35px;
+}
+.btn button a {
+  text-decoration: none;
+  color: white;
+  text-transform: capitalize;
+  font-size: 14px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+}
+.flex {
+  padding: 20px 0;
+}
+.flex-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.d1 {
+  width: 400px;
+  height: 300px;
+}
+.d1 img {
+  padding-top: 20px;
+  width: 20%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.d1 h3 {
+  padding-top: 20px;
+  text-align: center;
+  color: white;
+  font-family: "Raleway", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+}
+.d1-p {
+  display: flex;
+}
+.d1 p {
+  color: white;
+  font-size: 14px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  max-width: 350px;
+  margin: auto;
+  text-align: center;
+  padding: 20px 20px;
+  line-height: 1.7;
+}
+.d2 {
+  width: 400px;
+  height: 300px;
+}
+.d2 img {
+  padding-top: 20px;
+  width: 20%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.d2 h3 {
+  padding-top: 20px;
+  text-align: center;
+  color: white;
+  font-family: "Raleway", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+}
+.d2-p {
+  display: flex;
+}
+.d2 p {
+  color: white;
+  font-size: 14px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  max-width: 350px;
+  margin: auto;
+  text-align: center;
+  padding: 20px 20px;
+  line-height: 1.7;
+}
+.d3 {
+  width: 400px;
+  height: 300px;
+}
+.d3 img {
+  padding-top: 20px;
+  width: 20%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.d3 h3 {
+  padding-top: 20px;
+  text-align: center;
+  color: white;
+  font-family: "Raleway", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+}
+.d3-p {
+  display: flex;
+}
+.d3 p {
+  color: white;
+  font-size: 14px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  max-width: 380px;
+  text-align: center;
+  padding: 20px 20px;
+  line-height: 1.7;
+}
+.d4 {
+  width: 400px;
+  height: 300px;
+}
+.d4 img {
+  padding-top: 20px;
+  width: 20%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.d4 h3 {
+  padding-top: 20px;
+  text-align: center;
+  color: white;
+  font-family: "Raleway", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+}
+.d4-p {
+  display: flex;
+}
+.d4 p {
+  color: white;
+  font-size: 14px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  max-width: 350px;
+  margin: auto;
+  text-align: center;
+  padding: 20px 20px;
+  line-height: 1.7;
+}
+.productive {
+  padding: 20px 0;
+  /*display: grid;
+  align-items: center;*/
+}
+.productive img {
+  width: 80%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.productive h3 {
+  padding-top: 20px;
+  text-align: center;
+  color: white;
+  font-family: "Raleway", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+}
+.productive-p {
+  display: flex;
+}
+.productive p {
+  padding: 20px 20px;
+  max-width: 350px;
+  text-align: center;
+  color: white;
+  font-size: 16px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  margin: auto;
+  text-align: center;
+  line-height: 1.7;
+}
+.btn2 {
+  display: flex;
+}
+.btn2 a {
+  padding-top: 10px;
+  color: hsl(198, 60%, 50%);
+  font-size: 14px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  text-decoration: none;
+  padding-left: 40px;
+}
+.icon {
+  color: hsl(198, 60%, 50%);
+  padding-top: 13px;
+  padding-left: 8px;
+}
+.testimonials {
+  padding: 40px 0;
+}
+.flex-container1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.icon1 {
+  color: hsl(198, 60%, 50%);
+  font-size: 50px;
+  position: absolute;
+  bottom: 720px;
+  left: 18px;
+}
+.d5 {
+  width: 370px;
+  height: 200px;
+  background-color: hsl(219, 30%, 18%);
+}
+.all-d5 {
+  padding-bottom: 40px;
+  margin: auto;
+}
+.d5 p {
+  max-width: 400px;
+  color: white;
+  font-size: 14px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  text-align: center;
+  padding-top: 30px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.pic-content {
+  padding-top: 30px;
+  padding-left: 15px;
+  display: flex;
+}
+.pic-content img {
+  border-radius: 50%;
+  width: 15%;
+}
+.pic-content h4 {
+  padding-left: 15px;
+  padding-top: 10px;
+  color: white;
+  font-size: 14px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+}
+.d6 {
+  width: 370px;
+  height: 200px;
+  background-color: hsl(219, 30%, 18%);
+}
+.all-d6 {
+  padding-bottom: 40px;
+  margin: auto;
+}
+.d6 p {
+  max-width: 400px;
+  color: white;
+  font-size: 14px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  text-align: center;
+  padding-top: 30px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.pic-content1 {
+  padding-top: 30px;
+  padding-left: 15px;
+  display: flex;
+}
+.pic-content1 img {
+  border-radius: 50%;
+  width: 15%;
+}
+.pic-content1 h4 {
+  padding-left: 15px;
+  padding-top: 10px;
+  color: white;
+  font-size: 14px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+}
+.d7 {
+  width: 370px;
+  height: 200px;
+  background-color: hsl(219, 30%, 18%);
+}
+.all-d7 {
+  padding-bottom: 40px;
+  margin: auto;
+}
+.d7 p {
+  max-width: 400px;
+  color: white;
+  font-size: 14px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  text-align: center;
+  padding-top: 30px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.pic-content2 {
+  padding-top: 30px;
+  padding-left: 15px;
+  display: flex;
+}
+.pic-content2 img {
+  border-radius: 50%;
+  width: 15%;
+}
+.pic-content2 h4 {
+  padding-left: 15px;
+  padding-top: 10px;
+  color: white;
+  font-size: 14px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+}
+.contact {
+  padding: 40px 0;
+}
+.flexContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.d8 {
+  width: 350px;
+  height: 400px;
+  background-color: hsl(219, 30%, 18%);
+  display: flex;
+  align-items: center;
+  position: relative;
+  top: 150px;
+  border-radius: 10px;
+  position: relative;
+}
+.d8 h4 {
+  color: white;
+  font-family: "Raleway", sans-serif;
+  font-size: 15px;
+  position: absolute;
+  top: 15%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.d8 p {
+  color: white;
+  font-size: 14px;
+  font-family: "Open Sans", sans-serif;
+  max-width: 350px;
+  position: absolute;
+  top: 28%;
+  left: 5%;
+  right: 5%;
+  
+}
+.d9 {
+  width: 400px;
+  height: 700px;
+  background-color: hsl(216, 53%, 9%);
+}
